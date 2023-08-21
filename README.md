@@ -14,7 +14,7 @@ This project provides a simple live server implementation using Node.js and the 
 
 1. Clone the Repository:
 ``` bash
-    git clone https://github.com/your-username/live-server.git
+    git clone https://github.com/Divinoacademy/Live-server.git
 ```
 2. Navigate to the Project Directory:
 ``` bash
