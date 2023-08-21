@@ -11,7 +11,8 @@ const Port = 8000;
 const corsOption = {
     origin: "*" 
 };
-cors(corsOption);
+
+app.use(cors(corsOption));
 
 app.use( express.static('Public'))
 
