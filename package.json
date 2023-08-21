@@ -1,0 +1,21 @@
+{
+  "name": "live-server",
+  "version": "1.0.0",
+  "description": "Serve files on the browser using a Node.js live server on Termux for Android devices",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Marvelous Innocent",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
