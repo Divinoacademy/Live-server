@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 })
 */
 
-const server = app.listen(Port, () => console.log(`Server listening from ${Port}`));
+const server = app.listen(Port, () => console.log(`Server listening from ${Port} @ http://localhost:${Port}/Public/(filename)`));
 
 
 chokidar.watch('Public').on('all', (event, path) => {
