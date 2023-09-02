@@ -27,7 +27,7 @@ This project provides a simple live server implementation using Node.js and the 
 ## Usage
 1. Serve Files:
 
-Place the files you want to serve in the **Public** directory within the project root folder *(If not the Public is not available then create a new folder at the root folder and name it Public )*.
+Place the files you want to serve in the **Public** directory within the project root folder *(If the Public is not available then create a new folder at the root folder and name it Public )*.
 
 2. Start the Live Server:
 
